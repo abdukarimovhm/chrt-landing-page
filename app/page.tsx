@@ -35,9 +35,11 @@ export default function Home() {
             </span>
           </div>
           <div className="flex items-center gap-4">
-            <Button className="bg-gradient-to-r from-[#0C054F] to-[#4342BC] hover:from-[#4342BC] hover:to-[#7768FF] text-white transition-all duration-300 shadow-lg hover:shadow-xl">
-              Start Free Trial
-            </Button>
+            <Link href="https://playground.chrt.app" target="_blank" rel="noopener noreferrer">
+              <Button className="bg-gradient-to-r from-[#0C054F] to-[#4342BC] hover:from-[#4342BC] hover:to-[#7768FF] text-white transition-all duration-300 shadow-lg hover:shadow-xl">
+                Start Free Trial
+              </Button>
+            </Link>
           </div>
         </div>
       </header>
@@ -69,12 +71,14 @@ export default function Home() {
                 developers, and data enthusiasts.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button
-                  size="lg"
-                  className="bg-white text-[#0C054F] hover:bg-white/90 shadow-lg hover:shadow-xl transition-all duration-300"
-                >
-                  Start Free Trial
-                </Button>
+                <Link href="https://playground.chrt.app" target="_blank" rel="noopener noreferrer">
+                  <Button
+                    size="lg"
+                    className="bg-white text-[#0C054F] hover:bg-white/90 shadow-lg hover:shadow-xl transition-all duration-300"
+                  >
+                    Start Free Trial
+                  </Button>
+                </Link>
                 <Button
                   size="lg"
                   className="bg-[#0C054F]/90 text-white hover:bg-[#0C054F] backdrop-blur-sm transition-all duration-300 shadow-lg hover:shadow-xl border border-white/20"
@@ -215,10 +219,12 @@ export default function Home() {
                   <p className="text-[#171718]/70 text-lg">
                     Add your files and Julius generates beautiful graphs and charts automatically. No coding required.
                   </p>
-                  <Button className="bg-gradient-to-r from-[#0C054F] to-[#4342BC] hover:from-[#4342BC] hover:to-[#7768FF] text-white shadow-lg hover:shadow-xl transition-all duration-300">
-                    Try now
-                    <ChevronRight className="ml-2 h-4 w-4" />
-                  </Button>
+                  <Link href="https://playground.chrt.app" target="_blank" rel="noopener noreferrer">
+                    <Button className="bg-gradient-to-r from-[#0C054F] to-[#4342BC] hover:from-[#4342BC] hover:to-[#7768FF] text-white shadow-lg hover:shadow-xl transition-all duration-300">
+                      Try now
+                      <ChevronRight className="ml-2 h-4 w-4" />
+                    </Button>
+                  </Link>
                 </div>
                 <div className="relative bg-gray-50 rounded-lg p-6 h-[300px] flex items-center justify-center">
                   {/* Chart Visualization Mockup */}
@@ -343,10 +349,12 @@ export default function Home() {
                 <div className="space-y-4 mb-6">
                   <h3 className="text-xl font-bold text-[#171718]">Manipulate data</h3>
                   <p className="text-[#171718]/70">Clean, merge and sort data in Julius and then easily export it</p>
-                  <Button className="bg-gradient-to-r from-[#0C054F] to-[#4342BC] hover:from-[#4342BC] hover:to-[#7768FF] text-white shadow-lg hover:shadow-xl transition-all duration-300">
-                    Try now
-                    <ChevronRight className="ml-2 h-4 w-4" />
-                  </Button>
+                  <Link href="https://playground.chrt.app" target="_blank" rel="noopener noreferrer">
+                    <Button className="bg-gradient-to-r from-[#0C054F] to-[#4342BC] hover:from-[#4342BC] hover:to-[#7768FF] text-white shadow-lg hover:shadow-xl transition-all duration-300">
+                      Try now
+                      <ChevronRight className="ml-2 h-4 w-4" />
+                    </Button>
+                  </Link>
                 </div>
 
                 <div className="bg-gray-50 rounded-lg p-4 h-[200px] overflow-hidden">
@@ -405,10 +413,12 @@ export default function Home() {
                 <div className="space-y-4 mb-6">
                   <h3 className="text-xl font-bold text-[#171718]">Get insights</h3>
                   <p className="text-[#171718]/70">Ask questions and get expert-level analysis in English or Uzbek</p>
-                  <Button className="bg-gradient-to-r from-[#0C054F] to-[#4342BC] hover:from-[#4342BC] hover:to-[#7768FF] text-white shadow-lg hover:shadow-xl transition-all duration-300">
-                    Try now
-                    <ChevronRight className="ml-2 h-4 w-4" />
-                  </Button>
+                  <Link href="https://playground.chrt.app" target="_blank" rel="noopener noreferrer">
+                    <Button className="bg-gradient-to-r from-[#0C054F] to-[#4342BC] hover:from-[#4342BC] hover:to-[#7768FF] text-white shadow-lg hover:shadow-xl transition-all duration-300">
+                      Try now
+                      <ChevronRight className="ml-2 h-4 w-4" />
+                    </Button>
+                  </Link>
                 </div>
 
                 <div className="bg-gray-50 rounded-lg p-4 h-[200px] space-y-3">
@@ -705,12 +715,14 @@ export default function Home() {
               Join businesses worldwide using chrt to make data-driven decisions with confidence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4">
-              <Button
-                size="lg"
-                className="bg-white text-[#0C054F] hover:bg-white/90 shadow-lg hover:shadow-xl transition-all duration-300"
-              >
-                Start Free Trial
-              </Button>
+              <Link href="https://playground.chrt.app" target="_blank" rel="noopener noreferrer">
+                <Button
+                  size="lg"
+                  className="bg-white text-[#0C054F] hover:bg-white/90 shadow-lg hover:shadow-xl transition-all duration-300"
+                >
+                  Start Free Trial
+                </Button>
+              </Link>
               <Button
                 size="lg"
                 className="bg-[#0C054F]/90 text-white hover:bg-[#0C054F] backdrop-blur-sm transition-all duration-300 shadow-lg hover:shadow-xl border border-white/20"
