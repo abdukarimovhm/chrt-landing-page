@@ -14,7 +14,6 @@ import {
   Database,
   TrendingUp,
   Globe,
-  Play,
   Mail,
   Phone,
   Settings,
@@ -96,29 +95,18 @@ export default function Home() {
               </div>
             </div>
             <div className="relative h-[300px] md:h-[400px] rounded-lg bg-white/10 backdrop-blur-sm border border-white/20 shadow-2xl overflow-hidden">
-              {/* Dashboard Demo Video Placeholder */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <img
-                  src="/placeholder.svg?height=400&width=600"
-                  alt="Dashboard demo"
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-center justify-center">
-                  <div className="h-16 w-16 rounded-full bg-gradient-to-r from-[#029FF8] to-[#7768FF] flex items-center justify-center border-2 border-white/40 shadow-lg hover:scale-110 transition-transform duration-300 cursor-pointer">
-                    <Play className="h-8 w-8 text-white ml-1" />
-                  </div>
-                </div>
-                <div className="absolute bottom-4 left-4 bg-gradient-to-r from-[#0C054F]/80 to-[#4342BC]/80 backdrop-blur-sm px-3 py-1 rounded-full border border-white/20">
-                  <span className="text-white text-sm font-medium">Dashboard Demo</span>
-                </div>
-              </div>
-              <div className="absolute top-4 left-4 right-4">
-                <div className="bg-white/90 backdrop-blur-sm rounded-lg p-3 shadow-lg border border-white/20">
-                  <div className="flex items-center gap-2 text-sm text-[#171718]">
-                    <MessageSquare className="h-4 w-4 text-[#0C054F]" />
-                    <span>"Show me sales trends for Q4"</span>
-                  </div>
-                </div>
+              {/* YouTube Video Embed */}
+              <iframe
+                className="w-full h-full rounded-lg"
+                src="https://www.youtube.com/embed/AOY24_Z2qz4?si=Q6xjBZGDIP-hYKOm"
+                title="chrt Platform Demo - The purpose of chrt.app"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              />
+              <div className="absolute bottom-4 left-4 bg-gradient-to-r from-[#0C054F]/80 to-[#4342BC]/80 backdrop-blur-sm px-3 py-1 rounded-full border border-white/20">
+                <span className="text-white text-sm font-medium">Live Platform Demo</span>
               </div>
             </div>
           </div>
